@@ -43,9 +43,15 @@ function renderHeader() {
       <button class="nav-toggle" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
-      <nav class="main-nav" id="main-nav">${navLinks}</nav>
+      <nav class="main-nav" id="main-nav">
+        ${navLinks}
+        <div class="nav-auth-mobile">
+          <a href="login.html" class="btn-auth btn-login">Login</a>
+          <a href="signup.html" class="btn-auth btn-signup">Sign Up</a>
+        </div>
+      </nav>
       <div class="header-actions">
-       
+        
         <div class="header-auth">
           <a href="login.html" class="btn-auth btn-login">Login</a>
           <a href="signup.html" class="btn-auth btn-signup">Sign Up</a>
