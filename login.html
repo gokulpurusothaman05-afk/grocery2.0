@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Stackly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+
+  <div class="auth-page">
+    <div class="auth-card animate__animated animate__fadeInUp">
+      <a href="index.html" class="logo">Stack<span>ly</span>.</a>
+      <h2>Welcome Back</h2>
+      <p class="auth-sub">Sign in to your Stackly account</p>
+
+      <form class="auth-form" id="login-form">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          <span class="error-msg"></span>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter password" required>
+          <span class="error-msg"></span>
+        </div>
+        <div class="form-group">
+          <label for="role">Login as</label>
+          <select id="role" name="role" required>
+            <option value="client">Client</option>
+            <option value="admin">Admin</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label class="remember"><input type="checkbox" name="remember"> Remember me</label>
+          <a href="404.html" class="forgot">Forgot password?</a>
+        </div>
+        <button type="submit" class="btn-submit">Sign In</button>
+      </form>
+
+      <div class="auth-divider">or continue with</div>
+      <div style="display:flex;gap:12px;justify-content:center">
+        <a href="404.html" class="btn-auth btn-login" style="flex:1;text-align:center;padding:12px"><i class="fab fa-google"></i></a>
+        <a href="404.html" class="btn-auth btn-login" style="flex:1;text-align:center;padding:12px"><i class="fab fa-facebook-f"></i></a>
+      </div>
+
+      <p class="auth-switch">Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </div>
+  </div>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/redirect-404.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>

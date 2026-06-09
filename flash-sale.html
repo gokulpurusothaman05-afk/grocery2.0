@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flash Sale - Stackly Organic Grocery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body class="page-sale">
+
+  <header class="site-header" id="site-header"></header>
+
+  <!-- S1: Diagonal sale hero with countdown -->
+  <section class="sale-hero" id="section-hero">
+    <div class="container">
+      <div>
+        <span class="sale-badge">⚡ FLASH SALE LIVE</span>
+        <h1 class="section-title">Up To 50% Off<br>Organic Favorites</h1>
+        <p class="section-desc">Limited stock. Prices drop every 4 hours. When it's gone, it's gone.</p>
+      </div>
+      <div>
+        <p class="section-tag" style="text-align:center;margin-bottom:12px">ENDS IN</p>
+        <div id="countdown" class="countdown-wrap"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S2: Deal highlights -->
+  <section id="section-features" class="bg-white">
+    <div class="container">
+      <div class="section-header section-left"><p class="section-tag">Today</p><h2 class="section-title">Deal Highlights</h2></div>
+      <div class="features-grid">
+        <div class="feature-card" style="border-left:4px solid #E53935"><div class="feature-icon" style="background:#FFEBEE;color:#E53935"><i class="fas fa-percent"></i></div><h3>50% Off Produce</h3><p>Selected vegetables & fruits.</p></div>
+        <div class="feature-card" style="border-left:4px solid var(--green)"><div class="feature-icon"><i class="fas fa-bolt"></i></div><h3>Flash Bundles</h3><p>Buy 2 get 1 free on pantry items.</p></div>
+        <div class="feature-card" style="border-left:4px solid var(--gold)"><div class="feature-icon" style="background:#FFF8E1;color:var(--gold)"><i class="fas fa-gift"></i></div><h3>Free Gift</h3><p>Orders over ₹75 get a surprise box.</p></div>
+        <div class="feature-card" style="border-left:4px solid #1565C0"><div class="feature-icon" style="background:#E3F2FD;color:#1565C0"><i class="fas fa-shipping-fast"></i></div><h3>Free Express</h3><p>All flash sale orders ship free.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3: Deal cards grid -->
+  <section id="section-products">
+    <div class="container">
+      <div class="section-header"><p class="section-tag">Grab Now</p><h2 class="section-title">Flash Sale Items</h2></div>
+      <div class="deal-cards">
+        <div class="deal-card"><div class="deal-off">-40%</div><img src="assets/images/avocado.png" alt="" style="object-fit:contain;padding:16px;background:var(--green-pale);height:160px"><h3>Avocado 6-Pack</h3><div class="product-price"><span class="current">₹5.99</span><span class="old">₹9.99</span></div></div>
+        <div class="deal-card"><div class="deal-off">-30%</div><img src="assets/images/strawberry.png" alt="" style="object-fit:contain;padding:16px;background:var(--green-pale);height:160px"><h3>Berry Mix</h3><div class="product-price"><span class="current">₹6.99</span><span class="old">₹9.99</span></div></div>
+        <div class="deal-card"><div class="deal-off">-50%</div><img src="assets/images/broccoli.png" alt="" style="object-fit:contain;padding:16px;background:var(--green-pale);height:160px"><h3>Broccoli 3-Pack</h3><div class="product-price"><span class="current">₹3.99</span><span class="old">₹7.99</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S4: Inline stats -->
+  <section id="section-stats">
+    <div class="container">
+      <div class="stats-inline">
+        <div class="stat-item"><h3>48h</h3><p>Sale Duration</p></div>
+        <div class="stat-item"><h3>120</h3><p>Items On Sale</p></div>
+        <div class="stat-item"><h3>50%</h3><p>Max Discount</p></div>
+        <div class="stat-item"><h3>2k+</h3><p>Orders Today</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S5: More deals row -->
+  <section id="section-gallery" class="bg-white">
+    <div class="container">
+      <div class="section-header section-right"><p class="section-tag">More</p><h2 class="section-title">Don't Miss These</h2></div>
+      <div class="products-grid">
+        <div class="product-card"><div class="product-img"><span class="product-badge" style="background:#E53935">-25%</span><img src="assets/images/tomato.png" alt="" style="object-fit:contain;padding:20px;background:var(--green-pale)"></div><div class="product-info"><h3>Cherry Tomatoes</h3><div class="product-price"><span class="current">₹4.99</span><span class="old">₹6.49</span></div></div></div>
+        <div class="product-card"><div class="product-img"><span class="product-badge" style="background:#E53935">-35%</span><img src="assets/images/carrot.png" alt="" style="object-fit:contain;padding:20px;background:var(--green-pale)"></div><div class="product-info"><h3>Carrot Bunch</h3><div class="product-price"><span class="current">₹2.79</span><span class="old">₹4.29</span></div></div></div>
+        <div class="product-card"><div class="product-img"><span class="product-badge" style="background:#E53935">-20%</span><img src="assets/images/corn.png" alt="" style="object-fit:contain;padding:20px;background:var(--green-pale)"></div><div class="product-info"><h3>Sweet Corn</h3><div class="product-price"><span class="current">₹3.59</span><span class="old">₹4.49</span></div></div></div>
+        <div class="product-card"><div class="product-img"><span class="product-badge" style="background:#E53935">-45%</span><img src="assets/images/lime.png" alt="" style="object-fit:contain;padding:20px;background:var(--green-pale)"></div><div class="product-info"><h3>Lime Bag</h3><div class="product-price"><span class="current">₹2.99</span><span class="old">₹5.49</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S6: Shopper quotes -->
+  <section id="section-testimonials">
+    <div class="container">
+      <div class="section-header"><p class="section-tag">Hunters</p><h2 class="section-title">Deal Hunters Speak</h2></div>
+      <div class="testimonial-slider slick-slider">
+        <div class="testimonial-card"><p>"Saved ₹47 on my last flash order. I set a reminder every time the sale goes live!"</p><div class="testimonial-author"><div><h4>Mike Torres</h4><span>Flash Sale Regular</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S7: Urgency CTA -->
+  <section id="section-cta" class="cta-section" style="background:linear-gradient(135deg,#E8F5E0,#fff)">
+    <div class="container"><p class="section-tag" style="color:#E53935">⏰ Hurry</p><h2 class="section-title">Sale Ends When Timer Hits Zero</h2><a href="shop.html" class="btn-primary" style="margin-top:16px;display:inline-flex;background:#E53935;box-shadow:0 4px 16px rgba(229,57,53,0.3)">Shop Flash Sale <i class="fas fa-bolt"></i></a></div>
+  </section>
+
+  <!-- S8: FAQ -->
+  <section id="section-faq" class="bg-white">
+    <div class="container">
+      <div class="section-header section-left"><p class="section-tag">Rules</p><h2 class="section-title">Flash Sale FAQ</h2></div>
+      <div class="faq-list">
+        <div class="faq-item"><button class="faq-question">Can I use coupons on flash items? <i class="fas fa-chevron-down"></i></button><div class="faq-answer"><p>No — flash prices are already discounted and cannot combine with other codes.</p></div></div>
+        <div class="faq-item"><button class="faq-question">What if an item sells out? <i class="fas fa-chevron-down"></i></button><div class="faq-answer"><p>Flash stock is limited. Sold-out items return to regular price after the sale.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/redirect-404.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>

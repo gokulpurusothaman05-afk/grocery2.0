@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop - Stackly Organic Grocery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body class="page-shop">
+
+  <header class="site-header" id="site-header"></header>
+
+  <!-- S1: Split banner -->
+  <section class="banner-split" id="section-hero">
+    <div>
+      <p class="hero-tag">SHOP ORGANIC</p>
+      <h1 class="section-title">Farm-Fresh Picks For Your Kitchen</h1>
+      <p class="section-desc">Filter by category, price, and freshness. Every item is certified organic and delivered within 24 hours across Tamil Nadu.</p>
+      <a href="#section-products" class="btn-primary">Browse Catalog <i class="fas fa-arrow-down"></i></a>
+    </div>
+    <div class="banner-img"><img src="assets/images/broccoli.png" alt="Fresh produce" style="background:var(--green-pale);padding:40px;border-radius:16px"></div>
+  </section>
+
+  <!-- S2: Sidebar categories -->
+  <section id="section-features" class="bg-white">
+    <div class="container shop-layout">
+      <aside class="shop-sidebar">
+        <h3><i class="fas fa-filter"></i> Categories</h3>
+        <ul class="cat-list">
+          <li><a href="404.html" class="active"><i class="fas fa-carrot"></i> Vegetables</a></li>
+          <li><a href="404.html"><i class="fas fa-apple-alt"></i> Fruits</a></li>
+          <li><a href="404.html"><i class="fas fa-cheese"></i> Dairy & Eggs</a></li>
+          <li><a href="404.html"><i class="fas fa-bread-slice"></i> Bakery</a></li>
+          <li><a href="404.html"><i class="fas fa-wine-bottle"></i> Beverages</a></li>
+          <li><a href="404.html"><i class="fas fa-box"></i> Pantry</a></li>
+        </ul>
+        <h3 style="margin-top:24px">Price Range</h3>
+        <div class="price-filter" style="margin:16px 0 0;padding:0">
+          <div id="price-slider"></div>
+          <div class="price-values"><span id="price-min">₹10</span><span id="price-max">₹100</span></div>
+        </div>
+      </aside>
+      <div>
+        <div class="section-header section-left"><p class="section-tag">Top Picks</p><h2 class="section-title">This Week's Best Sellers</h2></div>
+        <div class="features-grid" style="grid-template-columns:1fr 1fr">
+          <div class="feature-card"><div class="feature-icon"><i class="fas fa-fire"></i></div><h3>Trending Now</h3><p>Avocados, berries & salad kits flying off shelves.</p></div>
+          <div class="feature-card"><div class="feature-icon"><i class="fas fa-snowflake"></i></div><h3>Seasonal</h3><p>Winter squash, citrus & root vegetables in peak season.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3: Product list rows -->
+  <section id="section-products">
+    <div class="container">
+      <div class="section-header section-left"><p class="section-tag">Catalog</p><h2 class="section-title">All Products</h2></div>
+      <div class="products-list">
+        <div class="product-row"><img src="assets/images/avocado.png" alt=""><div><h3>Hass Avocados (6 pack)</h3><p class="product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> · Organic</p></div><div class="product-price"><span class="current">₹8.49</span><button class="btn-primary" style="padding:10px 20px;font-size:0.8rem" onclick="window.location.href='404.html'">Add</button></div></div>
+        <div class="product-row"><img src="assets/images/tomato.png" alt=""><div><h3>Vine Cherry Tomatoes</h3><p class="product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> · Tamil Nadu Farm</p></div><div class="product-price"><span class="current">₹6.49</span><button class="btn-primary" style="padding:10px 20px;font-size:0.8rem" onclick="window.location.href='404.html'">Add</button></div></div>
+        <div class="product-row"><img src="assets/images/carrot.png" alt=""><div><h3>Rainbow Carrot Bunch</h3><p class="product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> · Fresh Daily</p></div><div class="product-price"><span class="current">₹4.29</span><button class="btn-primary" style="padding:10px 20px;font-size:0.8rem" onclick="window.location.href='404.html'">Add</button></div></div>
+        <div class="product-row"><img src="assets/images/strawberry.png" alt=""><div><h3>Organic Strawberry Punnet</h3><p class="product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> · Best Seller</p></div><div class="product-price"><span class="current">₹7.99</span><button class="btn-primary" style="padding:10px 20px;font-size:0.8rem" onclick="window.location.href='404.html'">Add</button></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S4: Stats bar -->
+  <section id="section-stats" class="stats-section">
+    <div class="container"><div class="stats-grid">
+      <div class="stat-item"><h3>350+</h3><p>Products</p></div>
+      <div class="stat-item"><h3>98%</h3><p>Satisfaction</p></div>
+      <div class="stat-item"><h3>24h</h3><p>Farm to Door, Tamil Nadu</p></div>
+      <div class="stat-item"><h3>Free</h3><p>Over ₹50</p></div>
+    </div></div>
+  </section>
+
+  <!-- S5: PNG gallery -->
+  <section id="section-gallery" class="bg-white">
+    <div class="container">
+      <div class="section-header section-left"><p class="section-tag">Fresh Picks</p><h2 class="section-title">New Arrivals</h2></div>
+      <div class="gallery-grid">
+        <div class="gallery-item" style="background:var(--green-pale);padding:24px;text-align:center"><img src="assets/images/lime.png" alt="Lime" style="margin:0 auto;max-height:160px;width:auto"></div>
+        <div class="gallery-item" style="background:var(--green-pale);padding:24px;text-align:center"><img src="assets/images/pepper.png" alt="Pepper" style="margin:0 auto;max-height:160px;width:auto"></div>
+        <div class="gallery-item" style="background:var(--green-pale);padding:24px;text-align:center"><img src="assets/images/corn.png" alt="Corn" style="margin:0 auto;max-height:160px;width:auto"></div>
+        <div class="gallery-item" style="background:var(--green-pale);padding:24px;text-align:center"><img src="assets/images/peas.png" alt="Peas" style="margin:0 auto;max-height:160px;width:auto"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S6: Testimonials -->
+  <section id="section-testimonials">
+    <div class="container">
+      <div class="section-header section-right"><p class="section-tag">Reviews</p><h2 class="section-title">Shoppers Love Stackly</h2></div>
+      <div class="testimonial-slider slick-slider">
+        <div class="testimonial-card"><p>"The product list layout makes it so easy to compare and add items. Delivery is always on time."</p><div class="testimonial-author"><div><h4>Emily Davis</h4><span>Weekly Shopper</span></div></div></div>
+        <div class="testimonial-card"><p>"Best organic prices I've found online. The category filters save me so much time."</p><div class="testimonial-author"><div><h4>James Wilson</h4><span>Verified Buyer</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S7: CTA -->
+  <section id="section-cta" class="cta-section">
+    <div class="container"><p class="section-tag">First Order</p><h2 class="section-title">Get 20% Off — Code STACKLY20</h2><form class="newsletter-form" onsubmit="event.preventDefault();window.location.href='404.html'"><input type="email" placeholder="Email for coupon" required><button type="submit" class="btn-primary">Get Code</button></form></div>
+  </section>
+
+  <!-- S8: FAQ -->
+  <section id="section-faq" class="bg-white">
+    <div class="container">
+      <div class="section-header section-left"><p class="section-tag">Help</p><h2 class="section-title">Shopping FAQ</h2></div>
+      <div class="faq-list">
+        <div class="faq-item"><button class="faq-question">What payment methods are accepted? <i class="fas fa-chevron-down"></i></button><div class="faq-answer"><p>Visa, Mastercard, Amex, PayPal, and Apple Pay.</p></div></div>
+        <div class="faq-item"><button class="faq-question">Is there free delivery? <i class="fas fa-chevron-down"></i></button><div class="faq-answer"><p>Free delivery on orders over ₹50. Below that, a flat ₹4.99 fee applies.</p></div></div>
+        <div class="faq-item"><button class="faq-question">Can I schedule delivery? <i class="fas fa-chevron-down"></i></button><div class="faq-answer"><p>Yes — pick a 2-hour window at checkout.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.min.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/redirect-404.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>
