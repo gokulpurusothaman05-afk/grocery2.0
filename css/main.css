@@ -230,6 +230,20 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(107,158,62,0.4);
 }
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 32px;
+  background: var(--white);
+  color: var(--green);
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--green);
+  transition: var(--transition);
+}
+.btn-secondary:hover { background: var(--green-pale); transform: translateY(-2px); }
 .btn-primary i { transition: transform 0.3s; }
 .btn-primary:hover i { transform: translateX(4px); }
 
@@ -296,7 +310,7 @@ section { padding: 80px 0; }
 }
 .section-desc {
   color: var(--text-muted);
-  max-width: 600px;
+  
   margin-bottom: 48px;
 }
 .section-header { text-align: center; margin-bottom: 48px; }
@@ -665,16 +679,20 @@ section { padding: 80px 0; }
   background: var(--bg-marble);
 }
 .page-404 h1 {
-  font-size: clamp(6rem, 15vw, 12rem);
+  font-size: clamp(4rem, 10vw, 8rem);
   font-weight: 800;
   color: var(--green);
   line-height: 1;
-  opacity: 0.15;
-  position: absolute;
+  opacity: 0.95;
+  position: relative;
+  margin: 0 0 12px 0;
+  transform: translateY(-6px);
 }
 .page-404 .content { position: relative; z-index: 1; }
 .page-404 h2 { font-size: 2rem; margin-bottom: 12px; }
 .page-404 p { color: var(--text-muted); margin-bottom: 24px; }
+
+.page-404 .actions { display:inline-flex; gap:12px; align-items:center; justify-content:center; }
 
 /* ========== UTILITIES ========== */
 .bg-white { background: var(--white); }

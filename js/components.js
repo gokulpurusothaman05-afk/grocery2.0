@@ -107,8 +107,7 @@ function renderFooter() {
           <ul>
             <li><a href="login.html">Login</a></li>
             <li><a href="signup.html">Sign Up</a></li>
-            <li><a href="client-dashboard.html">Client Dashboard</a></li>
-            <li><a href="admin-dashboard.html">Admin Dashboard</a></li>
+           
           </ul>
         </div>
         <div class="footer-col">
