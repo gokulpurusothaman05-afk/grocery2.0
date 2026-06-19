@@ -80,7 +80,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   width: 28px;
   max-width: 28px;
   height: auto;
-  filter: brightness(0) saturate(100%) invert(39%) sepia(98%) saturate(600%) hue-rotate(84deg) brightness(1.1) contrast(1.0);
+  filter: saturate(0) sepia(0.8) hue-rotate(88deg) saturate(4.5) brightness(1.05) contrast(1.2);
 }
 .logo span {
   font-size: 1.1rem;
