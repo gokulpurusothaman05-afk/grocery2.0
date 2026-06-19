@@ -67,12 +67,27 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 }
 
 .logo {
-  font-size: 1.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-shrink: 0;
+  color: var(--green);
+  text-decoration: none;
+}
+.logo img {
+  display: block;
+  width: 28px;
+  max-width: 28px;
+  height: auto;
+  filter: brightness(0) saturate(100%) invert(39%) sepia(98%) saturate(600%) hue-rotate(84deg) brightness(1.1) contrast(1.0);
+}
+.logo span {
+  font-size: 1.1rem;
   font-weight: 800;
   letter-spacing: -0.5px;
-  flex-shrink: 0;
+  color: var(--green);
 }
-.logo span { color: var(--green); }
 
 .nav-toggle {
   display: none;
@@ -163,10 +178,13 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: var(--bg-marble);
   position: relative;
   overflow: hidden;
   padding-top: 80px;
+  background: linear-gradient(90deg, rgba(111,170,69,0.94) 0%, rgba(142,191,96,0.85) 30%, rgba(206,235,163,0.55) 65%, rgba(255,255,255,0.08) 100%), url("assets/images/food.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .hero::before {
   content: '';
@@ -203,10 +221,11 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   line-height: 1.15;
   margin-bottom: 20px;
   letter-spacing: -1px;
+  color: var(--white);
 }
 .hero-desc {
   font-size: 1rem;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.92);
   max-width: 480px;
   margin-bottom: 32px;
   line-height: 1.8;

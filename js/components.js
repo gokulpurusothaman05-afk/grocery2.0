@@ -39,7 +39,7 @@ function renderHeader() {
 
   header.innerHTML = `
     <div class="header-inner">
-      <a href="index.html" class="logo">Stack<span>ly</span>.</a>
+      <a href="index.html" class="logo"><img src="assets/images/logo-icon.webp" alt="Stackly logo"><span>Stackly</span></a>
       <button class="nav-toggle" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
@@ -89,7 +89,7 @@ function renderFooter() {
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="index.html" class="logo">Stack<span>ly</span>.</a>
+          <a href="index.html" class="logo"><img src="assets/images/logo-icon.webp" alt="Stackly logo"><span>Stackly</span></a>
           <p>Your trusted organic grocery partner. We bring the freshest produce from local farms directly to your family's table with care and sustainability.</p>
           <div class="footer-social">
             <a href="404.html" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
